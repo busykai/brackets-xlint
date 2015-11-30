@@ -1,7 +1,5 @@
 # XLint ([Brackets](https://github.com/adobe/brackets) extension)#
 
-Overview
-==========
 XLint is a tool that reports compatibility issues of your HTML5
 application, helping you to avoid majority of cross-platform complatibility
 issues at development time.
@@ -20,14 +18,13 @@ This tells XLint to ignore compatibility issues on Android/2.3 platform and
 ignore compatibility issues related to "display" CSS property.
 
 XLint currently support the following platforms:
-
-    * Android v.2.3
-    * Android v.4.0
-    * Android v.4.1
-    * Android v.4.2
-    * Android v.4.3
-    * iOS v.6
-    * iOS v.7
+  > * Android v.2.3
+  > * Android v.4.0
+  > * Android v.4.1
+  > * Android v.4.2
+  > * Android v.4.3
+  > * iOS v.6
+  > * iOS v.7
 
 * **ignore platforms**.
 
@@ -65,34 +62,33 @@ In-code options
 In addition to using configuration file you can configure XLint directly in
 your source files by using special comments. For example:
 
-  1     /*xlint.ignoreProperty display, flex*/
-  2     body {
-  3       max-width: 800px;
-  4       margin: auto;
-  5     }
-  6
-  7     header {
-  8       /*xlint.ignoreRule*/
-  9       border-image: url(test.png);
- 10     }
- 11
- 12     .articles article {
- 13       /*xlint.ignoreProperty order*/
- 14       padding: 0 2.5%;
- 15       width: 33.33%;
- 16       order: 2;
- 17       background: #eee;
- 18       border-right: 1px solid #ccc;
- 19       border-left: 1px solid #fff;
- 20     }
- 21
- 22     .wrap {
- 23       display: flex;
- 24       /*xlint.ignoreProperty 2*/
- 25       flex-wrap: wrap;
- 26       border-image: url(abc.png);
- 27     }
-
+  	1     /*xlint.ignoreProperty display, flex*/  
+  	2     body {  
+  	3       max-width: 800px;
+  	4       margin: auto;
+  	5     }
+  	6
+  	7     header {
+  	8       /*xlint.ignoreRule*/
+  	9       border-image: url(test.png);
+ 	10     }
+ 	11
+ 	12     .articles article {
+ 	13       /*xlint.ignoreProperty order*/
+ 	14       padding: 0 2.5%;
+ 	15       width: 33.33%;
+ 	16       order: 2;
+ 	17       background: #eee;
+ 	18       border-right: 1px solid #ccc;
+	19       border-left: 1px solid #fff;
+ 	20     }
+ 	21
+ 	22     .wrap {
+ 	23       display: flex;
+ 	24       /*xlint.ignoreProperty 2*/
+ 	25       flex-wrap: wrap;
+ 	26       border-image: url(abc.png);
+ 	27     }
 
 This will ignore properties "display" and "flex" at the global level (line 1);
 will ignore any incompatibilities in "header" rule (line 8); will ignore any

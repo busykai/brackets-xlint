@@ -3,6 +3,7 @@
   , "version": "0.2.3"
   , "keywords": ["css", "html", "web app", "compatibility", "cross-platform"]
   , "author": "Chengwei Wu <meegodevelop@gmail.com>"
+  , "license": "MIT"
   , "dependencies": {
         "requirejs": "2.1.8"
       , "amdefine": ""
