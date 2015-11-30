@@ -2,7 +2,8 @@
 
 XLint is a tool that reports compatibility issues of your HTML5
 application, helping you to avoid majority of cross-platform complatibility
-issues at development time.
+issues at development time.  
+XLint relies on the compatibility data in [xlint/lib/lint/data](https://github.com/wuchengwei/brackets-xlint/tree/master/xlint/lib/lint/data) to detect compatibility issues. The compatibility data is collected via a [Test Application](https://github.com/wuchengwei/xlint-test-app).
 
 Configuration
 =============
@@ -148,8 +149,3 @@ If you don't specify a number, it will just ignore the next 1 property.
           flex-wrap: wrap;
           border-image: url(abc.png);
         }
-
-
-Compatibility data
-=============
-XLint relies on the compatibility data in [xlint/lib/lint/data](https://github.com/wuchengwei/brackets-xlint/tree/master/xlint/lib/lint/data) to detect compatibility issues. The compatibility data is collected via a [Test Application](https://github.com/wuchengwei/xlint-test-app).
