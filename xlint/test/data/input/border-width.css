@@ -1,0 +1,10 @@
+.test1 {
+	border-width: 1vw 1vh 1vmax 1vmin;
+}
+
+.test2 {
+	border-width: -webkit-calc(100% - 20px);
+	border-width: -moz-calc(100% - 20px);
+	border-width: calc(100% - 20px);
+	border-width: -webkit-calc(100% - 20px) -moz-calc(100% - 20px) calc(100% - 20px);
+}

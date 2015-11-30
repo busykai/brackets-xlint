@@ -1,0 +1,11 @@
+.test1 {
+	background-position: 1vw 1vh;
+	background-position: left 1vmin top 1vmax;
+}
+
+.test2 {
+	background-position: -webkit-calc(100% - 20px);
+	background-position: -moz-calc(100% - 20px);
+	background-position: calc(100% - 20px);
+	background-position: left -webkit-calc(100% - 20px) top -moz-calc(100% - 20px);
+}

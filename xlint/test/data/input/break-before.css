@@ -1,0 +1,65 @@
+.test1 {
+	-webkit-break-before: auto ;
+	-ms-break-before: auto ;
+	break-before: auto ;
+}
+
+.test2 {
+	-webkit-break-before: always ;
+	-ms-break-before: always ;
+	break-before: always ;
+}
+
+.test3 {
+	-webkit-break-before: avoid ;
+	-ms-break-before: avoid ;
+	break-before: avoid ;
+}
+
+.test4 {
+	-webkit-break-before: left;
+	-ms-break-before: left;
+	break-before: left;
+}
+
+.test5 {
+	-webkit-break-before: right ;
+	-ms-break-before: right ;
+	break-before: right ;
+}
+
+.test6 {
+	-webkit-break-before: page;
+	-ms-break-before: page;
+	break-before: page;
+}
+
+.test7 {
+	-webkit-break-before: column;
+	-ms-break-before: column;
+	break-before: column;
+}
+
+.test8 {
+	-webkit-break-before: region ;
+	-ms-break-before: region ;
+	break-before: region ;
+}
+
+.test9 {
+	-webkit-break-before: avoid-page;
+	-ms-break-before: avoid-page;
+	break-before: avoid-page;
+}
+
+.test10 {
+	-webkit-break-before: avoid-column;
+	-ms-break-before: avoid-column;
+	break-before: avoid-column;
+}
+
+.test11 {
+	-webkit-break-before: avoid-region;
+	-ms-break-before: avoid-region;
+	break-before: avoid-region;
+}

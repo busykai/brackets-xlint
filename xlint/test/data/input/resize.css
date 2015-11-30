@@ -1,0 +1,15 @@
+.test1 {
+	resize: none;
+}
+
+.test2 {
+	resize: both;
+}
+
+.test3 {
+	resize: horizontal;
+}
+
+.test4 {
+	resize: vertical;
+}

@@ -1,0 +1,4 @@
+.test {
+	-ms-grid-template-areas: none;
+	grid-template-areas: none;
+}

@@ -1,0 +1,29 @@
+.test1 {
+	-webkit-break-inside: auto ;
+	-ms-break-inside: auto ;
+	break-inside: auto ;
+}
+
+.test2 {
+	-webkit-break-inside: avoid  ;
+	-ms-break-inside: avoid  ;
+	break-inside: avoid  ;
+}
+
+.test3 {
+	-webkit-break-inside: avoid-page ;
+	-ms-break-inside: avoid-page ;
+	break-inside: avoid-page ;
+}
+
+.test4 {
+	-webkit-break-inside: avoid-column ;
+	-ms-break-inside: avoid-column ;
+	break-inside: avoid-column ;
+}
+
+.test5 {
+	-webkit-break-inside: avoid-region ;
+	-ms-break-inside: avoid-region ;
+	break-inside: avoid-region ;
+}

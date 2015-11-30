@@ -1,0 +1,20 @@
+{
+    "name": "intelxdk.xlint",
+    "title": "XLint for Intel XDK",
+    "description": "This extension reports compatibility issues of your HTML5 application, helping you to avoid majority of cross-platform compatibility issues at development time. Currently, only CSS compatibility issues are checked.",
+    "homepage": "http://software.intel.com/en-us/xdk/docs/xlint-intelxdk",
+    "version": "0.6.3",
+    "author": "Chengwei Wu",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.35.0"
+    },
+    "devDependencies": {
+        "grunt": "",
+        "grunt-contrib-jshint": "",
+        "grunt-contrib-copy": "",
+        "grunt-contrib-clean": "",
+        "grunt-contrib-compress": "",
+        "grunt-shell": ""
+    }
+}

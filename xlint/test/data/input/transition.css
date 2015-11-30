@@ -1,0 +1,6 @@
+.test {
+    -webkit-transition: background-color 0.5s cubic-bezier(1,0,1,0);
+    -moz-transition: background-color 0.5s cubic-bezier(1,0,1,0);
+    -o-transition: background-color 0.5s cubic-bezier(1,0,1,0);
+    transition: background-color 0.5s cubic-bezier(1,0,1,0);
+}

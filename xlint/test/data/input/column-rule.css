@@ -1,0 +1,23 @@
+.test1 {
+	-moz-column-rule: 2px solid #33c;
+	-webkit-column-rule: 2px solid #33c;
+	column-rule: 2px solid #33c;
+}
+
+.test2 {
+	-moz-column-rule-color: #33c;
+	-webkit-column-rule-color: #33c;
+	column-rule-color: #33c;
+}
+
+.test3 {
+	-moz-column-rule-style: solid;
+	-webkit-column-rule-style: solid;
+	column-rule-style: solid;
+}
+
+.test4 {
+	-moz-column-rule-width: 2px;
+	-webkit-column-rule-width: 2px;
+	column-rule-width: 2px;
+}

@@ -1,0 +1,12 @@
+.test1 {
+	margin-right: 10vh;
+	margin-right: 20vw;
+	margin-right: 30vmax;
+	margin-right: 40vmin;
+}
+
+.test2 {
+	margin-right: -webkit-calc(100% - 20px);
+	margin-right: -moz-calc(100% - 20px);
+	margin-right: calc(100% - 20px);
+}

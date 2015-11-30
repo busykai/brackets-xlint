@@ -1,0 +1,324 @@
+{
+    "linear-gradient": {
+        "type": "FUNCTION",
+        "name": "linear-gradient"
+    },
+    "repeating-linear-gradient": {
+        "type": "FUNCTION",
+        "name": "repeating-linear-gradient"
+    },
+    "radial-gradient": {
+        "type": "FUNCTION",
+        "name": "radial-gradient"
+    },
+    "repeating-radial-gradient": {
+        "type": "FUNCTION",
+        "name": "repeating-radial-gradient"
+    },
+    "-webkit-gradient": {
+        "type": "FUNCTION",
+        "name": "-webkit-gradient"
+    },
+    "-webkit-linear-gradient": {
+        "type": "FUNCTION",
+        "name": "-webkit-linear-gradient"
+    },
+    "-webkit-repeating-linear-gradient": {
+        "type": "FUNCTION",
+        "name": "-webkit-repeating-linear-gradient"
+    },
+    "-webkit-radial-gradient": {
+        "type": "FUNCTION",
+        "name": "-webkit-radial-gradient"
+    },
+    "-webkit-repeating-radial-gradient": {
+        "type": "FUNCTION",
+        "name": "-webkit-repeating-radial-gradient"
+    },
+    "-moz-linear-gradient": {
+        "type": "FUNCTION",
+        "name": "-moz-linear-gradient"
+    },
+    "-moz-repeating-linear-gradient": {
+        "type": "FUNCTION",
+        "name": "-moz-repeating-linear-gradient"
+    },
+    "-moz-radial-gradient": {
+        "type": "FUNCTION",
+        "name": "-moz-radial-gradient"
+    },
+    "-moz-repeating-radial-gradient": {
+        "type": "FUNCTION",
+        "name": "-moz-repeating-radial-gradient"
+    },
+    "-ms-linear-gradient": {
+        "type": "FUNCTION",
+        "name": "-ms-linear-gradient"
+    },
+    "-ms-repeating-linear-gradient": {
+        "type": "FUNCTION",
+        "name": "-ms-repeating-linear-gradient"
+    },
+    "-ms-radial-gradient": {
+        "type": "FUNCTION",
+        "name": "-ms-radial-gradient"
+    },
+    "-ms-repeating-radial-gradient": {
+        "type": "FUNCTION",
+        "name": "-ms-repeating-radial-gradient"
+    },
+    "-o-linear-gradient": {
+        "type": "FUNCTION",
+        "name": "-o-linear-gradient"
+    },
+    "-o-repeating-linear-gradient": {
+        "type": "FUNCTION",
+        "name": "-o-repeating-linear-gradient"
+    },
+    "-o-radial-gradient": {
+        "type": "FUNCTION",
+        "name": "-o-radial-gradient"
+    },
+    "-o-repeating-radial-gradient": {
+        "type": "FUNCTION",
+        "name": "-o-repeating-radial-gradient"
+    },
+    "csscanvas": {
+        "type": "FUNCTION",
+        "name": "canvas"
+    },
+    "hsl": {
+        "type": "FUNCTION",
+        "name": "hsl"
+    },
+    "hsla": {
+        "type": "FUNCTION",
+        "name": "hsla"
+    },
+    "rgba": {
+        "type": "FUNCTION",
+        "name": "rgba"
+    },
+    "currentColor": {
+        "type": "IDENT",
+        "value": "currentColor"
+    },
+    "transparent": {
+        "type": "IDENT",
+        "value": "transparent"
+    },
+    "vh": {
+        "type": "VHS"
+    },
+    "vw": {
+        "type": "VWS"
+    },
+    "vmax": {
+        "type": "VMAXS"
+    },
+    "vmin": {
+        "type": "VMINS"
+    },
+    "rem": {
+        "type": "REMS"
+    },
+    "ch": {
+        "type": "CHS"
+    },
+    "calc": {
+        "type": "FUNCTION",
+        "name": "calc"
+    },
+    "-webkit-calc": {
+        "type": "FUNCTION",
+        "name": "-webkit-calc"
+    },
+    "-moz-calc": {
+        "type": "FUNCTION",
+        "name": "-moz-calc"
+    },
+    "-ms-calc": {
+        "type": "FUNCTION",
+        "name": "-ms-calc"
+    },
+    "-o-calc": {
+        "type": "FUNCTION",
+        "name": "-o-calc"
+    },
+    "-moz-flexbox": {
+        "type": "IDENT",
+        "value": "-moz-flexbox"
+    },
+    "-ms-flexbox": {
+        "type": "IDENT",
+        "value": "-ms-flexbox"
+    },
+    "-o-flexbox": {
+        "type": "IDENT",
+        "value": "-o-flexbox"
+    },
+    "-webkit-flexbox": {
+        "type": "IDENT",
+        "value": "-webkit-flexbox"
+    },
+    "flexbox": {
+        "type": "IDENT",
+        "value": "flexbox"
+    },
+    "-moz-box": {
+        "type": "IDENT",
+        "value": "-moz-box"
+    },
+    "-ms-box": {
+        "type": "IDENT",
+        "value": "-ms-box"
+    },
+    "-o-box": {
+        "type": "IDENT",
+        "value": "-o-box"
+    },
+    "-webkit-box": {
+        "type": "IDENT",
+        "value": "-webkit-box"
+    },
+    "box": {
+        "type": "IDENT",
+        "value": "box"
+    },
+    "-moz-flex": {
+        "type": "IDENT",
+        "value": "-moz-flex"
+    },
+    "-ms-flex": {
+        "type": "IDENT",
+        "value": "-ms-flex"
+    },
+    "-o-flex": {
+        "type": "IDENT",
+        "value": "-o-flex"
+    },
+    "-webkit-flex": {
+        "type": "IDENT",
+        "value": "-webkit-flex"
+    },
+    "flex": {
+        "type": "IDENT",
+        "value": "flex"
+    },
+    "inline-flex": {
+        "type": "IDENT",
+        "value": "inline-flex"
+    },
+    "-webkit-inline-flex": {
+        "type": "IDENT",
+        "value": "inline-flex"
+    },
+    "-moz-inline-flex": {
+        "type": "IDENT",
+        "value": "inline-flex"
+    },
+    "-ms-inline-flex": {
+        "type": "IDENT",
+        "value": "inline-flex"
+    },
+    "-o-inline-flex": {
+        "type": "IDENT",
+        "value": "inline-flex"
+    },
+    "break-word": {
+        "type": "IDENT",
+        "value": "break-word"
+    },
+    "normal": {
+        "type": "IDENT",
+        "value": "normal"
+    },
+    "break-all": {
+        "type": "IDENT",
+        "value": "break-all"
+    },
+    "keep-all": {
+        "type": "IDENT",
+        "value": "keep-all"
+    },
+    "fit-content": {
+        "type": "IDENT",
+        "value": "fit-content"
+    },
+    "-webkit-fit-content": {
+        "type": "IDENT",
+        "value": "-webkit-fit-content"
+    },
+    "-moz-fit-content": {
+        "type": "IDENT",
+        "value": "-moz-fit-content"
+    },
+    "-ms-fit-content": {
+        "type": "IDENT",
+        "value": "-ms-fit-content"
+    },
+    "-o-fit-content": {
+        "type": "IDENT",
+        "value": "-o-fit-content"
+    },
+    "-moz-fill-available": {
+        "type": "IDENT",
+        "value": "-moz-fill-available"
+    },
+    "-ms-fill-available": {
+        "type": "IDENT",
+        "value": "-ms-fill-available"
+    },
+    "-o-fill-available": {
+        "type": "IDENT",
+        "value": "-o-fill-available"
+    },
+    "-webkit-fill-available": {
+        "type": "IDENT",
+        "value": "-webkit-fill-available"
+    },
+    "fill-available": {
+        "type": "IDENT",
+        "value": "fill-available"
+    },
+    "-moz-min-content": {
+        "type": "IDENT",
+        "value": "-moz-min-content"
+    },
+    "-ms-min-content": {
+        "type": "IDENT",
+        "value": "-ms-min-content"
+    },
+    "-o-min-content": {
+        "type": "IDENT",
+        "value": "-o-min-content"
+    },
+    "-webkit-min-content": {
+        "type": "IDENT",
+        "value": "-webkit-min-content"
+    },
+    "min-content": {
+        "type": "IDENT",
+        "value": "min-content"
+    },
+    "-moz-max-content": {
+        "type": "IDENT",
+        "value": "-moz-max-content"
+    },
+    "-ms-max-content": {
+        "type": "IDENT",
+        "value": "-ms-max-content"
+    },
+    "-o-max-content": {
+        "type": "IDENT",
+        "value": "-o-max-content"
+    },
+    "-webkit-max-content": {
+        "type": "IDENT",
+        "value": "-webkit-max-content"
+    },
+    "max-content": {
+        "type": "IDENT",
+        "value": "max-content"
+    }
+}

@@ -1,0 +1,933 @@
+{
+  "compatibility-data": {
+    "dpi": {
+      "supported": "n"
+    },
+    "dpcm": {
+      "supported": "n"
+    },
+    "dppx": {
+      "supported": "n"
+    },
+    "currentColor": {
+      "supported": "y"
+    },
+    "font-face": {
+      "supported": "y",
+      "src": {
+        "svg": "y",
+        "eot": "n",
+        "woff": "y",
+        "ttf": "y"
+      }
+    },
+    "object-position": {
+      "supported": "n"
+    },
+    "-webkit-object-position": {
+      "supported": "n"
+    },
+    "object-fit": {
+      "supported": "n"
+    },
+    "-webkit-object-fit": {
+      "supported": "n"
+    },
+    "break-inside": {
+      "supported": "n"
+    },
+    "-webkit-break-inside": {
+      "supported": "n"
+    },
+    "break-before": {
+      "supported": "n"
+    },
+    "-webkit-break-before": {
+      "supported": "n"
+    },
+    "break-after": {
+      "supported": "n"
+    },
+    "-webkit-break-after": {
+      "supported": "n"
+    },
+    "column-fill": {
+      "supported": "n"
+    },
+    "-webkit-column-fill": {
+      "supported": "n"
+    },
+    "column-span": {
+      "supported": "n"
+    },
+    "-webkit-column-span": {
+      "supported": "y"
+    },
+    "column-rule-width": {
+      "supported": "n"
+    },
+    "-webkit-column-rule-width": {
+      "supported": "y"
+    },
+    "column-rule-style": {
+      "supported": "n"
+    },
+    "-webkit-column-rule-style": {
+      "supported": "y"
+    },
+    "column-rule-color": {
+      "supported": "n"
+    },
+    "-webkit-column-rule-color": {
+      "supported": "y"
+    },
+    "column-rule": {
+      "supported": "n"
+    },
+    "-webkit-column-rule": {
+      "supported": "y"
+    },
+    "column-gap": {
+      "supported": "n"
+    },
+    "-webkit-column-gap": {
+      "supported": "y"
+    },
+    "column-width": {
+      "supported": "n"
+    },
+    "-webkit-column-width": {
+      "supported": "y"
+    },
+    "column-count": {
+      "supported": "n"
+    },
+    "-webkit-column-count": {
+      "supported": "y"
+    },
+    "columns": {
+      "supported": "n"
+    },
+    "-webkit-columns": {
+      "supported": "y"
+    },
+    "resize": {
+      "supported": "y"
+    },
+    "-webkit-resize": {
+      "supported": "n"
+    },
+    "text-stroke": {
+      "supported": "n"
+    },
+    "-webkit-text-stroke": {
+      "supported": "y"
+    },
+    "grid-template": {
+      "supported": "n"
+    },
+    "-webkit-grid-template": {
+      "supported": "n"
+    },
+    "grid-template-areas": {
+      "supported": "n"
+    },
+    "-webkit-grid-template-areas": {
+      "supported": "n"
+    },
+    "grid-template-columns": {
+      "supported": "n"
+    },
+    "-webkit-grid-template-columns": {
+      "supported": "n"
+    },
+    "grid-template-rows": {
+      "supported": "n"
+    },
+    "-webkit-grid-template-rows": {
+      "supported": "n"
+    },
+    "region-fragment": {
+      "supported": "n"
+    },
+    "-webkit-region-fragment": {
+      "supported": "n"
+    },
+    "flow-from": {
+      "supported": "n"
+    },
+    "-webkit-flow-from": {
+      "supported": "n"
+    },
+    "flow-into": {
+      "supported": "n"
+    },
+    "-webkit-flow-into": {
+      "supported": "n"
+    },
+    "mask": {
+      "supported": "y"
+    },
+    "-webkit-mask": {
+      "supported": "y"
+    },
+    "filter": {
+      "supported": "y"
+    },
+    "-webkit-filter": {
+      "supported": "y"
+    },
+    "box-reflect": {
+      "supported": "n"
+    },
+    "-webkit-box-reflect": {
+      "supported": "y"
+    },
+    "box-sizing": {
+      "supported": "y"
+    },
+    "-webkit-box-sizing": {
+      "supported": "y"
+    },
+    "box-shadow": {
+      "supported": "y"
+    },
+    "-webkit-box-shadow": {
+      "supported": "y"
+    },
+    "border-image-outset": {
+      "supported": "y"
+    },
+    "-webkit-border-image-outset": {
+      "supported": "n"
+    },
+    "border-image-repeat": {
+      "supported": "y"
+    },
+    "-webkit-border-image-repeat": {
+      "supported": "n"
+    },
+    "border-image-slice": {
+      "supported": "y"
+    },
+    "-webkit-border-image-slice": {
+      "supported": "n"
+    },
+    "border-image-width": {
+      "supported": "y"
+    },
+    "-webkit-border-image-width": {
+      "supported": "n"
+    },
+    "border-image-source": {
+      "supported": "y"
+    },
+    "-webkit-border-image-source": {
+      "supported": "n"
+    },
+    "border-image": {
+      "supported": "y"
+    },
+    "-webkit-border-image": {
+      "supported": "y"
+    },
+    "background-origin": {
+      "supported": "y"
+    },
+    "-webkit-background-origin": {
+      "supported": "y"
+    },
+    "background-size": {
+      "supported": "y"
+    },
+    "-webkit-background-size": {
+      "supported": "y"
+    },
+    "background-clip": {
+      "supported": "y"
+    },
+    "-webkit-background-clip": {
+      "supported": "y"
+    },
+    "word-break": {
+      "supported": "y",
+      "keep-all": "n",
+      "break-all": "y",
+      "normal": "y"
+    },
+    "animation-fill-mode": {
+      "supported": "n"
+    },
+    "-webkit-animation-fill-mode": {
+      "supported": "y"
+    },
+    "animation-play-state": {
+      "supported": "n"
+    },
+    "-webkit-animation-play-state": {
+      "supported": "y"
+    },
+    "animation-direction": {
+      "supported": "n"
+    },
+    "-webkit-animation-direction": {
+      "supported": "y"
+    },
+    "animation-iteration-count": {
+      "supported": "n"
+    },
+    "-webkit-animation-iteration-count": {
+      "supported": "y"
+    },
+    "animation-delay": {
+      "supported": "n"
+    },
+    "-webkit-animation-delay": {
+      "supported": "y"
+    },
+    "animation-timing-function": {
+      "supported": "n"
+    },
+    "-webkit-animation-timing-function": {
+      "supported": "y"
+    },
+    "animation-duration": {
+      "supported": "n"
+    },
+    "-webkit-animation-duration": {
+      "supported": "y"
+    },
+    "animation-name": {
+      "supported": "n"
+    },
+    "-webkit-animation-name": {
+      "supported": "y"
+    },
+    "animation": {
+      "supported": "n"
+    },
+    "-webkit-animation": {
+      "supported": "y"
+    },
+    "transition-delay": {
+      "supported": "n"
+    },
+    "-webkit-transition-delay": {
+      "supported": "y"
+    },
+    "transition-timing-function": {
+      "supported": "n"
+    },
+    "-webkit-transition-timing-function": {
+      "supported": "y"
+    },
+    "transition-duration": {
+      "supported": "n"
+    },
+    "-webkit-transition-duration": {
+      "supported": "y"
+    },
+    "transition-property": {
+      "supported": "n"
+    },
+    "-webkit-transition-property": {
+      "supported": "y"
+    },
+    "transition": {
+      "supported": "n"
+    },
+    "-webkit-transition": {
+      "supported": "y"
+    },
+    "backface-visibility": {
+      "supported": "n"
+    },
+    "-webkit-backface-visibility": {
+      "supported": "y"
+    },
+    "perspective-origin": {
+      "supported": "n"
+    },
+    "-webkit-perspective-origin": {
+      "supported": "y"
+    },
+    "perspective": {
+      "supported": "n"
+    },
+    "-webkit-perspective": {
+      "supported": "y"
+    },
+    "transform-style": {
+      "supported": "n"
+    },
+    "-webkit-transform-style": {
+      "supported": "y"
+    },
+    "transform-origin": {
+      "supported": "n"
+    },
+    "-webkit-transform-origin": {
+      "supported": "y"
+    },
+    "transform": {
+      "supported": "n"
+    },
+    "-webkit-transform": {
+      "supported": "y"
+    },
+    "word-wrap": {
+      "supported": "y",
+      "break-word": "y",
+      "normal": "y"
+    },
+    "hyphens": {
+      "supported": "n",
+      "manual": "y",
+      "auto": "y",
+      "none": "y"
+    },
+    "-webkit-hyphens": {
+      "supported": "y",
+      "manual": "y",
+      "auto": "y",
+      "none": "y"
+    },
+    "user-select": {
+      "supported": "n"
+    },
+    "-webkit-user-select": {
+      "supported": "y"
+    },
+    "tab-size": {
+      "supported": "n"
+    },
+    "-webkit-tab-size": {
+      "supported": "n"
+    },
+    "order": {
+      "supported": "n"
+    },
+    "-webkit-order": {
+      "supported": "n"
+    },
+    "justify-content": {
+      "supported": "n"
+    },
+    "-webkit-justify-content": {
+      "supported": "n"
+    },
+    "align-self": {
+      "supported": "n"
+    },
+    "-webkit-align-self": {
+      "supported": "n"
+    },
+    "align-items": {
+      "supported": "n"
+    },
+    "-webkit-align-items": {
+      "supported": "n"
+    },
+    "align-content": {
+      "supported": "n"
+    },
+    "-webkit-align-content": {
+      "supported": "n"
+    },
+    "flex-shrink": {
+      "supported": "n"
+    },
+    "-webkit-flex-shrink": {
+      "supported": "n"
+    },
+    "flex-basis": {
+      "supported": "n"
+    },
+    "-webkit-flex-basis": {
+      "supported": "n"
+    },
+    "flex-grow": {
+      "supported": "n"
+    },
+    "-webkit-flex-grow": {
+      "supported": "n"
+    },
+    "flex-flow": {
+      "supported": "n"
+    },
+    "-webkit-flex-flow": {
+      "supported": "n"
+    },
+    "flex-wrap": {
+      "supported": "n"
+    },
+    "-webkit-flex-wrap": {
+      "supported": "n"
+    },
+    "flex-direction": {
+      "supported": "n"
+    },
+    "-webkit-flex-direction": {
+      "supported": "n"
+    },
+    "opacity": {
+      "supported": "y"
+    },
+    "-webkit-opacity": {
+      "supported": "y"
+    },
+    "image-orientation": {
+      "supported": "n"
+    },
+    "-webkit-image-orientation": {
+      "supported": "n"
+    },
+    "image-resolution": {
+      "supported": "n"
+    },
+    "-webkit-image-resolution": {
+      "supported": "n"
+    },
+    "font-size-adjust": {
+      "supported": "n"
+    },
+    "-webkit-font-size-adjust": {
+      "supported": "n"
+    },
+    "font-stretch": {
+      "supported": "y"
+    },
+    "-webkit-font-stretch": {
+      "supported": "n"
+    },
+    "font-kerning": {
+      "supported": "n"
+    },
+    "-webkit-font-kerning": {
+      "supported": "y"
+    },
+    "font-synthesis": {
+      "supported": "n"
+    },
+    "-webkit-font-synthesis": {
+      "supported": "n"
+    },
+    "font-variant": {
+      "supported": "y"
+    },
+    "-webkit-font-variant": {
+      "supported": "n"
+    },
+    "font-variant-ligatures": {
+      "supported": "n"
+    },
+    "-webkit-font-variant-ligatures": {
+      "supported": "y"
+    },
+    "font-variant-position": {
+      "supported": "n"
+    },
+    "-webkit-font-variant-position": {
+      "supported": "n"
+    },
+    "font-variant-caps": {
+      "supported": "n"
+    },
+    "-webkit-font-variant-caps": {
+      "supported": "n"
+    },
+    "font-variant-numeric": {
+      "supported": "n"
+    },
+    "-webkit-font-variant-numeric": {
+      "supported": "n"
+    },
+    "font-variant-alternates": {
+      "supported": "n"
+    },
+    "-webkit-font-variant-alternates": {
+      "supported": "n"
+    },
+    "font-variant-asian": {
+      "supported": "n"
+    },
+    "-webkit-font-variant-asian": {
+      "supported": "n"
+    },
+    "font-feature-settings": {
+      "supported": "n"
+    },
+    "-webkit-font-feature-settings": {
+      "supported": "y"
+    },
+    "font-language-override": {
+      "supported": "n"
+    },
+    "-webkit-font-language-override": {
+      "supported": "n"
+    },
+    "border-radius": {
+      "supported": "y"
+    },
+    "-webkit-border-radius": {
+      "supported": "y"
+    },
+    "ime-mode": {
+      "supported": "n"
+    },
+    "-webkit-ime-mode": {
+      "supported": "n"
+    },
+    "nav-left": {
+      "supported": "n"
+    },
+    "-webkit-nav-left": {
+      "supported": "n"
+    },
+    "nav-down": {
+      "supported": "n"
+    },
+    "-webkit-nav-down": {
+      "supported": "n"
+    },
+    "nav-right": {
+      "supported": "n"
+    },
+    "-webkit-nav-right": {
+      "supported": "n"
+    },
+    "nav-up": {
+      "supported": "n"
+    },
+    "-webkit-nav-up": {
+      "supported": "n"
+    },
+    "nav-index": {
+      "supported": "n"
+    },
+    "-webkit-nav-index": {
+      "supported": "n"
+    },
+    "box-decoration-break": {
+      "supported": "n"
+    },
+    "-webkit-box-decoration-break": {
+      "supported": "n"
+    },
+    "text-overflow": {
+      "supported": "y"
+    },
+    "outline-offset": {
+      "supported": "y"
+    },
+    "-webkit-outline-offset": {
+      "supported": "n"
+    },
+    "text-shadow": {
+      "supported": "y"
+    },
+    "-webkit-text-shadow": {
+      "supported": "n"
+    },
+    "text-emphasis-position": {
+      "supported": "n"
+    },
+    "-webkit-text-emphasis-position": {
+      "supported": "y"
+    },
+    "text-emphasis": {
+      "supported": "n"
+    },
+    "-webkit-text-emphasis": {
+      "supported": "y"
+    },
+    "text-emphasis-color": {
+      "supported": "n"
+    },
+    "-webkit-text-emphasis-color": {
+      "supported": "y"
+    },
+    "text-emphasis-style": {
+      "supported": "n"
+    },
+    "-webkit-text-emphasis-style": {
+      "supported": "y"
+    },
+    "text-underline-position": {
+      "supported": "n"
+    },
+    "-webkit-text-underline-position": {
+      "supported": "n"
+    },
+    "text-decoration-skip": {
+      "supported": "n"
+    },
+    "-webkit-text-decoration-skip": {
+      "supported": "n"
+    },
+    "text-decoration-style": {
+      "supported": "n"
+    },
+    "-webkit-text-decoration-style": {
+      "supported": "n"
+    },
+    "text-decoration-color": {
+      "supported": "n"
+    },
+    "-webkit-text-decoration-color": {
+      "supported": "n"
+    },
+    "text-decoration-line": {
+      "supported": "n"
+    },
+    "-webkit-text-decoration-line": {
+      "supported": "n"
+    },
+    "supports": {
+      "supported": "n"
+    },
+    "selection": {
+      "supported": "n"
+    },
+    "-webkit-selection": {
+      "supported": "n"
+    },
+    "input-placeholder": {
+      "supported": "n"
+    },
+    "-webkit-input-placeholder": {
+      "supported": "y"
+    },
+    "overflow-wrap": {
+      "break-word": "n",
+      "normal": "n"
+    },
+    "background-image": {
+      "csscanvas": "y",
+      "svg": "y",
+      "-webkit-repeating-radial-gradient": "y",
+      "repeating-radial-gradient": "n",
+      "-webkit-repeating-linear-gradient": "y",
+      "repeating-linear-gradient": "n",
+      "-webkit-radial-gradient": "y",
+      "radial-gradient": "n",
+      "-webkit-linear-gradient": "y",
+      "linear-gradient": "n"
+    },
+    "background": {
+      "transparent": "y",
+      "hsla": "y",
+      "hsl": "y",
+      "rgba": "y",
+      "csscanvas": "y",
+      "svg": "y",
+      "-webkit-repeating-radial-gradient": "y",
+      "repeating-radial-gradient": "n",
+      "-webkit-repeating-linear-gradient": "y",
+      "repeating-linear-gradient": "n",
+      "-webkit-radial-gradient": "y",
+      "radial-gradient": "n",
+      "-webkit-linear-gradient": "y",
+      "linear-gradient": "n"
+    },
+    "border-color": {
+      "transparent": "y",
+      "hsla": "y",
+      "hsl": "y",
+      "rgba": "y"
+    },
+    "background-color": {
+      "transparent": "y",
+      "hsla": "y",
+      "hsl": "y",
+      "rgba": "y"
+    },
+    "font-size": {
+      "rem": "y",
+      "ch": "n",
+      "vmax": "n",
+      "vmin": "y",
+      "vh": "y",
+      "vw": "y"
+    },
+    "width": {
+      "rem": "y",
+      "ch": "n",
+      "-webkit-fit-content": "n",
+      "fit-content": "n",
+      "-webkit-fill-available": "n",
+      "fill-available": "n",
+      "-webkit-min-content": "n",
+      "min-content": "n",
+      "-webkit-max-content": "n",
+      "max-content": "n",
+      "vmax": "n",
+      "vmin": "y",
+      "vh": "y",
+      "vw": "y",
+      "-webkit-calc": "n",
+      "calc": "n"
+    },
+    "height": {
+      "rem": "y",
+      "ch": "n",
+      "-webkit-fit-content": "n",
+      "fit-content": "n",
+      "-webkit-fill-available": "n",
+      "fill-available": "n",
+      "-webkit-min-content": "n",
+      "min-content": "n",
+      "-webkit-max-content": "n",
+      "max-content": "n",
+      "vmax": "n",
+      "vmin": "y",
+      "vh": "y",
+      "vw": "y",
+      "-webkit-calc": "n",
+      "calc": "n"
+    },
+    "border-width": {
+      "rem": "y",
+      "ch": "n",
+      "vmax": "n",
+      "vmin": "y",
+      "vh": "y",
+      "vw": "y",
+      "-webkit-calc": "n",
+      "calc": "n"
+    },
+    "background-position": {
+      "vmax": "n",
+      "vmin": "y",
+      "vh": "y",
+      "vw": "y",
+      "-webkit-calc": "n",
+      "calc": "n"
+    },
+    "display": {
+      "-webkit-inline-flex": "n",
+      "inline-flex": "n",
+      "-webkit-flexbox": "n",
+      "flexbox": "n",
+      "-webkit-box": "y",
+      "box": "n",
+      "-webkit-flex": "n",
+      "flex": "n"
+    },
+    "padding-top": {
+      "rem": "y",
+      "ch": "n",
+      "-webkit-fit-content": "n",
+      "fit-content": "n",
+      "-webkit-fill-available": "n",
+      "fill-available": "n",
+      "-webkit-min-content": "n",
+      "min-content": "n",
+      "-webkit-max-content": "n",
+      "max-content": "n",
+      "vmax": "n",
+      "vmin": "y",
+      "vh": "y",
+      "vw": "y",
+      "-webkit-calc": "n",
+      "calc": "n"
+    },
+    "padding-bottom": {
+      "rem": "y",
+      "ch": "n",
+      "-webkit-fit-content": "n",
+      "fit-content": "n",
+      "-webkit-fill-available": "n",
+      "fill-available": "n",
+      "-webkit-min-content": "n",
+      "min-content": "n",
+      "-webkit-max-content": "n",
+      "max-content": "n",
+      "vmax": "n",
+      "vmin": "y",
+      "vh": "y",
+      "vw": "y",
+      "-webkit-calc": "n",
+      "calc": "n"
+    },
+    "padding-left": {
+      "rem": "y",
+      "ch": "n",
+      "-webkit-fit-content": "n",
+      "fit-content": "n",
+      "-webkit-fill-available": "n",
+      "fill-available": "n",
+      "-webkit-min-content": "n",
+      "min-content": "n",
+      "-webkit-max-content": "n",
+      "max-content": "n",
+      "vmax": "n",
+      "vmin": "y",
+      "vh": "y",
+      "vw": "y",
+      "-webkit-calc": "n",
+      "calc": "n"
+    },
+    "padding-right": {
+      "rem": "y",
+      "ch": "n",
+      "-webkit-fit-content": "n",
+      "fit-content": "n",
+      "-webkit-fill-available": "n",
+      "fill-available": "n",
+      "-webkit-min-content": "n",
+      "min-content": "n",
+      "-webkit-max-content": "n",
+      "max-content": "n",
+      "vmax": "n",
+      "vmin": "y",
+      "vh": "y",
+      "vw": "y",
+      "-webkit-calc": "n",
+      "calc": "n"
+    },
+    "margin-top": {
+      "rem": "y",
+      "ch": "n",
+      "vmax": "n",
+      "vmin": "y",
+      "vh": "y",
+      "vw": "y",
+      "-webkit-calc": "n",
+      "calc": "n"
+    },
+    "margin-bottom": {
+      "rem": "y",
+      "ch": "n",
+      "vmax": "n",
+      "vmin": "y",
+      "vh": "y",
+      "vw": "y",
+      "-webkit-calc": "n",
+      "calc": "n"
+    },
+    "margin-left": {
+      "rem": "y",
+      "ch": "n",
+      "vmax": "n",
+      "vmin": "y",
+      "vh": "y",
+      "vw": "y",
+      "-webkit-calc": "n",
+      "calc": "n"
+    },
+    "margin-right": {
+      "rem": "y",
+      "ch": "n",
+      "vmax": "n",
+      "vmin": "y",
+      "vh": "y",
+      "vw": "y",
+      "-webkit-calc": "n",
+      "calc": "n"
+    }
+  },
+  "prefix": "-webkit-",
+  "platform": "iOS",
+  "version": "6.1.5"
+}

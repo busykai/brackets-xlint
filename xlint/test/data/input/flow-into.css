@@ -1,0 +1,11 @@
+.test1 {
+	-webkit-flow-into: xxxx;
+	-ms-flow-into: xxxx;
+	flow-into: xxxx;
+}
+
+.test2 {
+	-webkit-flow-into: none;
+	-ms-flow-into: none;
+	flow-into: none;
+}

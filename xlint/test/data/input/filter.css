@@ -1,0 +1,55 @@
+/* Refer to http://bennettfeely.com/filters/ */
+.grayscale {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.sepia {
+    -webkit-filter: sepia(1);
+    filter: sepia(1);
+}
+
+.saturate {
+    -webkit-filter: saturate(4);
+    filter: saturate(4);
+}
+
+.hue-rotate {
+    -webkit-filter: hue-rotate(90deg);
+    filter: hue-rotate(90deg);
+}
+
+.invert {
+    -webkit-filter: invert(.8);
+    filter: invert(.8);
+}
+
+.opacity {
+    -webkit-filter: opacity(.5);
+    filter: opacity(.5);
+}
+
+.brightness {
+    -webkit-filter: brightness(.5);
+    filter: brightness(.5);
+}
+
+.contrast {
+    -webkit-filter: contrast(3);
+    filter: contrast(3);
+}
+
+.blur {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.tint {
+    -webkit-filter: sepia(1) hue-rotate(200deg);
+    filter: sepia(1) hue-rotate(200deg);
+}
+
+.multiple-filters {
+    -webkit-filter: contrast(1.4) saturate(1.8) sepia(.6);
+    filter: contrast(1.4) saturate(1.8) sepia(.6);
+}

@@ -1,0 +1,7 @@
+node_modules
+dist
+*.zip
+.DS_Store
+*.log
+xlint/test/data/output
+xlint/test/spec

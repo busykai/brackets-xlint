@@ -1,0 +1,12 @@
+.test1 {
+	padding-right: 10vh;
+	padding-right: 20vw;
+	padding-right: 30vmax;
+	padding-right: 40vmin;
+}
+
+.test2 {
+	padding-right: -webkit-calc(100% - 20px);
+	padding-right: -moz-calc(100% - 20px);
+	padding-right: calc(100% - 20px);
+}

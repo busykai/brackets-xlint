@@ -1,0 +1,4 @@
+.test {
+	-o-object-position: left 30px top 20px;
+	object-position: left 30px top 20px;
+}

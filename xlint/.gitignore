@@ -1,0 +1,7 @@
+.DS_Store
+*.xdk
+dist
+node_modules
+test/data/output
+test/spec
+.idea

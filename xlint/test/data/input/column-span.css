@@ -1,0 +1,11 @@
+.test1 {
+	-moz-column-span: all;
+	-webkit-column-span: all;
+	column-span: all;
+}
+
+.test2 {
+	-moz-column-span: none;
+	-webkit-column-span: none;
+	column-span: none;
+}
