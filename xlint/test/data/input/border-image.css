@@ -1,7 +1,0 @@
-.test { 
-	border: 30px solid transparent;
-	-moz-border-image:url("/files/4127/border.png") 30 30 repeat; /* Old firefox */
-	-webkit-border-image:url("/files/4127/border.png") 30 30 repeat; /* Safari */
-	-o-border-image:url("/files/4127/border.png") 30 30 repeat; /* Opera */
-	border-image:url("/files/4127/border.png") 30 30 repeat;
-}

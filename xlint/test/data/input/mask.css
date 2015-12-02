@@ -1,4 +1,0 @@
-.test {
-	-webkit-mask: url(mask.svg) top left / cover;
-	mask: url(mask.svg) top left / cover;
-}

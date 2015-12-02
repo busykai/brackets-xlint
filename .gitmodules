@@ -1,0 +1,3 @@
+[submodule "xlint"]
+	path = xlint
+	url = https://github.com/wuchengwei/xlint.git
